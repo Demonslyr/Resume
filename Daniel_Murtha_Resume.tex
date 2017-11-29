@@ -9,8 +9,12 @@
 \usepackage[lmargin=0.5in, rmargin=1in, tmargin=0in, bmargin=0.5in]{geometry}
 \pagestyle{empty}
 \setlength{\textheight}{10.5in}
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
 \begin{document}
 \begin{resume}
+\begin{changemargin}{-0.5in}{0in}
 	\begin{center}
 		\begin{Huge}
 		\textbf{Daniel R. Murtha}
@@ -20,13 +24,14 @@
 			5445 Foxridge Drive Apt 308, Mission KS, 66202\\
 			M: (913) 775-3507~~~~~~E: dr.murtha@me.com
 		\end{normalsize}
-	\end{center}\vspace{-10pt}
+	\end{center}
+\end{changemargin}\vspace{-10pt}
 \section{Skills:}
 {\setlength\multicolsep{0pt}
 \begin{multicols}{3}
 C/C++\\Python\\JavaScript\\C\# .Net Classic/Core\\
 \columnbreak %Sketchy as heck column break. I think it's affected by the qrcode
-Haskell\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum Master I (Scrum.org)
+SQL\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum Master I (Scrum.org)\\Haskell
 \columnbreak
 	\begin{flushright}
 	GitHub: github.com/Demonslyr\\
@@ -58,10 +63,10 @@ Haskell\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum 
     Mission, KS 66202
    \end{tabbing}\vspace{-10pt}
 	\begin{itemize}
-		\item Developed .Net web application with a react front end to help automate manual deployments that were costing the company thousands of dollars per year in lost dev time.
-		\item Expanded and Maintained a Developer portal used by 18 dev teams which enforced and managed the process of application deployments and provided a dashboard for a near real-time overview and history of deployments and app automation.
-		\item Took initiative to build a service layer for the Developer Portal to replace the integration with Zapier which increased portal responsiveness and reduced costs paid to Zapier.
-		\item Developed the companies first AWS based content management system for storing and serving terabytes of data off prem with my team to handle ever increasing demand that would overwhelm the companies hardware. \vspace{-15pt}
+		\item Developed .Net web application with a ReactJS front end to help automate manual deployments that were costing the company thousands of dollars per year in lost dev time.
+		\item Expanded and maintained a developer portal, used by 18 dev teams, which managed the process of application deployments and provided a dashboard with a near real-time overview and history of deployments and app automation.
+		\item Took initiative to build a service layer for the developer portal to replace the integration with Zapier which increased portal responsiveness and reduced costs paid to Zapier.
+		\item Developed the companies first AWS based content management system for storing and serving terabytes of data off prem with my team to handle an ever increasing demand that would overwhelm the companies hardware. \vspace{-15pt}
 	\end{itemize}
    \begin{tabbing}
    \hspace{5.5in}\= \kill
@@ -80,7 +85,7 @@ Haskell\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum 
    \end{tabbing}\vspace{-10pt}
 	\begin{itemize}
 		\item Operated and maintained the LPKF Circuit mill and provide technical support for Cadence/PSPICE.
-		\item Maintained engineering labs and performed lifecycle replacements for hundreds of EECS workstations.
+		\item Maintained engineering labs and performed life-cycle replacements for hundreds of EECS workstations.
 		\item Received and track shop inventory.
 		\item Trained new and managed current student hires.\vspace{-15pt}
 	\end{itemize}
