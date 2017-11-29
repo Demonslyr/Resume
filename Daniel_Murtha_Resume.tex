@@ -1,0 +1,105 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{times}
+\usepackage{qrcode}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage[lmargin=0.5in, rmargin=1in, tmargin=0in, bmargin=0.5in]{geometry}
+\pagestyle{empty}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{10.5in} % increase text height to fit on 1-page 
+\begin{document}
+\begin{resume}
+	\begin{center}
+		\begin{Huge}
+		\textbf{Daniel R. Murtha}
+		\end{Huge}
+	\end{center}
+\section{Skills:}
+{\setlength\multicolsep{0pt}
+\begin{multicols}{3}
+C/C++\\Python\\JavaScript\\C\# .Net Classic/Core\\
+\columnbreak
+Haskell\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\
+\columnbreak
+	\begin{flushright}
+	GitHub: github.com/Demonslyr\\
+	\qrcode{https://github.com/Demonslyr}
+	\end{flushright}
+\end{multicols}}\vspace{-10pt}
+ 
+\section{EDUCATION}\vspace{5pt}
+\begin{minipage}{0.8\linewidth}
+	\begin{small}
+		\begin{flushleft}
+			University of Kansas; Bachelor of Science in Computer Engineering GPA 3.33\\Kansas City Kansas Community College; Associates of Science	2010
+		\end{flushleft}
+	\end{small}   
+\end{minipage}
+\begin{minipage}{0.2\linewidth}
+	\begin{small}   
+		\begin{flushright}
+			Graduated 2016\\Graduated 2010
+		\end{flushright}	     
+	\end{small}   
+\end{minipage}\vspace{-10pt}
+ 
+\section{Professional Experience}
+   \vspace{-0.1in}	
+   \begin{tabbing}
+   \hspace{5.5in}\= \kill 
+    {\bf VinSolutions, Software Engineering Intern, Contractor, Junior Developer} \>~~~~~~~~~~~~~May 2015 - Present\\
+    Mission, KS 66202
+   \end{tabbing}\vspace{-10pt}
+	\begin{itemize}
+		\item Developed .Net web application with a react front end to help automate manual deployments that were costing the company thousands of dollars per year in lost dev time.
+		\item Expanded and Maintained a Developer portal used by 18 dev teams which enforced and managed the process of application deployments and provided a dashboard for a near real-time overview and history of deployments and application automation.
+		\item Took initiative to Develop a service layer for the Developer Portal to replace our integration with Zapier which increased portal responsiveness and reduced costs paid to Zapier.
+		\item Developed the companies first AWS based api for storing data in the cloud with \vspace{-15pt}
+	\end{itemize}
+   \begin{tabbing}
+   \hspace{5.5in}\= \kill
+    {\bf University of Kansas, Undergraduate Research Assistant} \>~~~~~~~~June 2014 - May 2015\\
+    Lawrence, KS 66045
+   \end{tabbing}\vspace{-10pt}
+	\begin{itemize}
+		\item Helped to replace FPGA based UAV radar signal processing system with an Nvidia Tegra K1 microprocessor.
+		\item Developed a multi-threaded signal processing pipeline utilizing Boost and FFTW v3 libraries in C++.
+		\item Performed benchmarking and pipeline optimization on code to meet real-time performance benchmarks.\vspace{-15pt}
+	\end{itemize}
+   \begin{tabbing}
+   \hspace{5.5in}\= \kill
+   {\bf University of Kansas School of Engineering EECS Shop, Senior Student Hire}  \>~~~~~March 2014 - May 2015\\
+   Lawrence, KS 66045
+   \end{tabbing}\vspace{-10pt}
+	\begin{itemize}
+		\item Operated and maintained the LPKF Circuit mill and provide technical support for Cadence/PSPICE.
+		\item Maintained engineering labs and performed lifecycle replacements for hundreds of EECS workstations.
+		\item Received and track shop inventory.
+		\item Trained new and managed current student hires.\vspace{-15pt}
+	\end{itemize}
+   \begin{tabbing}
+	\hspace{5.5in}\= \kill
+	{\bf Chief Information Office (G6), Computer Technician}  \>~~~~~~July 2012 - March 2013\\
+	Fort Leavenworth, KS 66027
+\end{tabbing}\vspace{-10pt}
+	\begin{itemize}
+		\item Held a Secret level security clearance.
+		\item Performed data recovery on users' computers; restoring their files to operations.
+		\item Conducted training for users on multiple devices and subjects.
+		\item Performed tasks involving Hardware/Software troubleshooting, SCCM management, System building, and Life Cycle Replacement.\vspace{-10pt}
+	\end{itemize}
+
+\section{Awards \& Certifications}
+{Eagle Scout\\ Profession Scrum Master I (Scrum.org)}\vspace{-10pt}
+\section{Projects}          
+{\textbf{JSho:} A JavaScript-based arcade style bullet swarm game utilizing HTML 5 canvas.\\\textbf{RealViz:} An audio visualization program for streaming. Utilizes the Minum library with Processing2 on top of Java to generate real-time visualizer from audio inputs using Fourier transforms.\\\textbf{UAV Radar Detection:} Augment UAV flight computer with object detection/tracking and collision avoidance utilizing an NVIDIA Tegra K1.\\\textbf{Dev Ops FileSync:} C\# .Net application to sync Dev and QA servers for application deployments at manual intervals or by automatic schedule.}
+ 
+\end{resume}
+\end{document}
