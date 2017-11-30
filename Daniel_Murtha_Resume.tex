@@ -6,7 +6,7 @@
 \usepackage{qrcode}
 \usepackage{enumitem}
 \setlist{nosep}
-\usepackage[lmargin=0.5in, rmargin=1in, tmargin=0in, bmargin=0.5in]{geometry}
+\usepackage[lmargin=0.5in, rmargin=1in, tmargin=0.5in, bmargin=0.5in]{geometry}
 \pagestyle{empty}
 \setlength{\textheight}{10.5in}
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
@@ -25,21 +25,26 @@
 			M: (913) 775-3507~~~~~~E: dr.murtha@me.com
 		\end{normalsize}
 	\end{center}
-\end{changemargin}\vspace{-10pt}
-\section{Skills:}
-{\setlength\multicolsep{0pt}
-\begin{multicols}{3}
-C/C++\\Python\\JavaScript\\C\# .Net Classic/Core\\
-\columnbreak %Sketchy as heck column break. I think it's affected by the qrcode
-SQL\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum Master I (Scrum.org)\\Haskell
-\columnbreak
-	\begin{flushright}
-	GitHub: github.com/Demonslyr\\
-	\qrcode{https://github.com/Demonslyr}
-	\end{flushright}
-\end{multicols}}\vspace{-10pt}
+\end{changemargin}\vspace{-5pt}
+ \section{Skills:}\vspace{-10pt}
+ \begin{minipage}{0.8\linewidth}
+ 	\begin{small}
+ 		\begin{flushleft}
+ 			{\bf Computer: }C, C++, Python, JavaScript, C\# .Net Classic/Core, Java, Racket, SQL, Matlab, Haskell, OSX, Linux, Windows\\
+			{\bf Other: } Eagle Scout, AWS Cloud Development, Embedded Systems, Profession Scrum Master I, Japanese, HAM Radio Tech
+ 		\end{flushleft}
+ 	\end{small}   
+ \end{minipage}
+ \begin{minipage}{0.2\linewidth}
+ 	\begin{small}   
+		\begin{flushright}
+			github.com/Demonslyr\\
+			\qrcode{https://github.com/Demonslyr}
+		\end{flushright}     
+ 	\end{small}   
+ \end{minipage}\vspace{-10pt}
  
-\section{EDUCATION}\vspace{5pt}
+\section{Education:}\vspace{5pt}
 \begin{minipage}{0.8\linewidth}
 	\begin{small}
 		\begin{flushleft}
@@ -55,7 +60,7 @@ SQL\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum Mast
 	\end{small}   
 \end{minipage}\vspace{-10pt}
  
-\section{Professional Experience}
+\section{Professional Experience:}
    \vspace{-0.1in}	
    \begin{tabbing}
    \hspace{5.5in}\= \kill 
@@ -101,7 +106,7 @@ SQL\\Eagle Scout\\AWS Cloud Development\\Embedded Systems\\Profession Scrum Mast
 		\item Performed tasks involving Hardware/Software troubleshooting, SCCM management, System building, and Life Cycle Replacement.\vspace{-10pt}
 	\end{itemize}
 
-\section{Projects}          
+\section{Projects:}          
 {\textbf{JSho:} A JavaScript-based arcade style bullet swarm game utilizing HTML 5 canvas.\\\textbf{RealViz:} An audio visualization program for streaming. Utilizes the Minum library with Processing2 on top of Java to generate real-time visualizer from audio inputs using Fourier transforms.\\\textbf{UAV Radar Detection:} Augment UAV flight computer with object detection/tracking and collision avoidance utilizing an NVIDIA Tegra K1.\\\textbf{Dev Ops FileSync:} C\# .Net application to sync Dev and QA servers for application deployments at manual intervals or by automatic schedule.}
  
 \end{resume}
