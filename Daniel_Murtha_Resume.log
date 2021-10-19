@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.5)  8 OCT 2021 01:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.5)  19 OCT 2021 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Daniel_Murtha_Management_Resume.tex
-(./Daniel_Murtha_Management_Resume.tex
+**Daniel_Murtha_Resume.tex
+(./Daniel_Murtha_Resume.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (./res.cls
 Document Style `res' <26 Sep 89>.
@@ -243,7 +243,7 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box97
 )
-No file Daniel_Murtha_Management_Resume.aux.
+No file Daniel_Murtha_Resume.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
@@ -382,16 +382,16 @@ ospecials\catcode`\{=1\catcode`\}=2\relax \qr@savematrix@int}\def\qr@savematrix
 ] ) 
 Here is how much of TeX's memory you used:
  7660 strings out of 478599
- 116369 string characters out of 5858101
- 447589 words of memory out of 5000000
+ 116292 string characters out of 5858101
+ 447567 words of memory out of 5000000
  25531 multiletter control sequences out of 15000+600000
  415148 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,209p,296b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,8n,209p,285b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb>
-Output written on Daniel_Murtha_Management_Resume.pdf (1 page, 41699 bytes).
+Output written on Daniel_Murtha_Resume.pdf (1 page, 41699 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
